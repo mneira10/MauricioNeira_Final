@@ -18,7 +18,7 @@ for i, f in enumerate(onlyfiles):
     totData.append(data)
     # data = np.concatenate([nums, data])
     plt.subplot(4, 2, i+1)
-    plt.hist(data, normed=True)
+    plt.hist(data, density=True)
     xmin, xmax = plt.xlim()
     x = np.linspace(xmin, xmax, 100)
     p = norm.pdf(x, 0, 1)
