@@ -1,2 +1,6 @@
 all:
-    python punto2.py
+	python3 punto2.py
+
+clean:
+
+	rm *.png
