@@ -6,4 +6,4 @@ all:
 clean:
 	rm *.x
 	rm *.dat
-	rm *.pdf
+	rm *.png
